@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """This module defines a class to manage file storage for hbnb clone"""
 import json
@@ -58,7 +57,7 @@ class FileStorage:
 
     def delete(self, obj=None):
         """public instance method to delete obj from __objects
-        if it is inside
+        if it's inside
         """
         if obj is None:
             return
